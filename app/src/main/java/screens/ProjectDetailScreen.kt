@@ -15,6 +15,7 @@ import androidx.compose.ui.text.font.FontWeight
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.yoo.mypm.ui.theme.RedLevel2
+import com.yoo.mypm.ui.theme.RedLevel1
 
 @Composable
 fun ProjectDetailScreen() {
@@ -29,7 +30,13 @@ fun ProjectDetailScreen() {
             text = "프로젝트 상세",
             fontSize = 28.sp,
             fontWeight = FontWeight.Bold,
-            color = RedLevel2  // 반기별 색상
+            color = RedLevel1  // 반기별 색상
+        )
+        Spacer(modifier = Modifier.height(16.dp))
+        Text(
+            text = "프로젝트 세부 정보가 표시됩니다",
+            fontSize = 16.sp,
+            color = MaterialTheme.colorScheme.onBackground
         )
         Spacer(modifier = Modifier.height(16.dp))
         Text(

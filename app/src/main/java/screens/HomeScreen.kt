@@ -36,5 +36,11 @@ fun HomeScreen() {
             fontSize = 16.sp,
             color = MaterialTheme.colorScheme.onBackground
         )
+        Spacer(modifier = Modifier.height(16.dp))
+        Text(
+            text = "프로젝트  표시됩니다",
+            fontSize = 16.sp,
+            color = MaterialTheme.colorScheme.onBackground
+        )
     }
 }
